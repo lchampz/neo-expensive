@@ -1,1 +1,1 @@
-var s="/assets/shopping-cart.b432d158.svg";export{s as S};
+var p="/neo-expensive/mvp/assets/shopping-cart.b432d158.svg";export{p as S};

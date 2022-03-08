@@ -1,1 +1,0 @@
-import{j as o,a as e,L as s}from"./index.dfd5fa78.js";import"./vendor.e0ff885f.js";function c(){return o("div",{children:[e("p",{children:"compra feita com sucesso"}),e("p",{children:"mandamos nota fiscal pro seu email"}),e(s,{href:"/",children:"go to homepage"})]})}export{c as default};
