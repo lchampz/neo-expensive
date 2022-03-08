@@ -1,0 +1,1 @@
+import{B as o}from"./index.e0d7f962.js";import{j as t,a as e,L as r}from"./index.48c8c336.js";import"./vendor.7282221c.js";function s(){return t("div",{children:[e("h3",{children:"we sent a code to your e-mail"}),e(r,{href:"/",children:e(o,{type:"button",children:"Go to homepage"})})]})}export{s as default};
