@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Gives parameters to all information to data that must be applied -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Vitor Neves, Vinicius Oliveira e Thiago Lisboa">
+  <meta name="description" content="Evo Expensive E-Commerce">
+  
+  <!-- Favicon, stylesheet links and script link to HTML -->
+  <link rel="icon" href="../../images/general/logos/neo-dpad-logo.svg" sizes="any" type="image/svg+xml">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Josefins Sans | Light 300 | Regular 400 -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Montserrat | Regular 400 | Medium 500 | Semi-Bold 600 -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
+  <!-- Bebas Neue | Regular 400 -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <title>Neo Expensive | Login</title>
+  
+  <link rel="stylesheet" href="../../css/main.css" />
+
+  <script defer type="module" src="../../js/pages/login.js"></script>
+</head> 
+
+<body class="login--body" data-theme="default">
+  
+  <div class="login--banner">
+    <img src="../../images/pages/login-register/undraw_abstract.svg" alt="Abstract logistics" class="login--banner--image">
+    <h3 class="login--banner--h3">Bem-Vindo(a) Neo Expensive</h3>
+    <h2 class="login--banner--h2">Desejamos-te uma boa experiência</h2>
+    
+    <a href="#neo--explore">
+      <img src="../../images/pages/login-register/arrow-circle-down.svg" alt="Arrow Down" class="down--arrow">
+    </a>
+  </div>
+  
+  <div class="login--form--wrapper">
+    <form class="login--form">
+      
+      <div class="login--form--logo-wrapper">
+        <img src="../../images/general/logos/neo-dpad-logo.svg" alt="" class="login--form--logo">
+      </div>
+      
+      <h1 id="neo--explore" class="login--form--h1">Explore a Neo Expensive</h1>
+      
+      <div class="login--form--name--wrapper">
+        <label class="login--form--label">Email</label>
+        <img src="../../images/pages/login-register/envelope-simple.svg" alt="" class="login--form--image">
+        <input required name="email" type="email" class="login--form--input" placeholder="fulano@ciclano.com">
+      </div>
+      
+      <div class="login--form--pass--wrapper">
+        <label class="login--form--label">Senha</label>
+        <img src="../../images/pages/login-register/lock-simple.svg" alt="" class="login--form--image">
+        <input required name="password" type="password" class="login--form--input" placeholder="********">
+      </div>
+      
+      <div class="login--form--pass--extras">
+        <label for="login--remember" class="login--remember--label">
+          <input type="checkbox" name="remembermypass" id="login--remember">
+          Lembre Meu Login
+        </label>
+
+        <a href="#" class="login--forgot">Esqueci a Senha</a>
+      </div>
+      
+      
+      <div class="login--form--button--wrapper">
+        <button type="submit" class="login--form--button">Login</button>
+      </div>
+      
+      <hr class="login--form--divider">
+      <div class="login--form--google--wrapper">
+        <img src="../../images/general/google_signin_buttons/web/vector/btn_google_dark_normal_ios.svg" alt="" class="login--form--google--image">
+        <a href="#" class="login--form--google">Entrar com Google</a>
+      </div>
+      
+      
+    </form>
+    
+  </div>
+  
+</body>
+
+
+</html>
